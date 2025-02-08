@@ -7,7 +7,7 @@ import HeroSection from './components/HeroSection';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import { Toaster } from 'react-hot-toast';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
