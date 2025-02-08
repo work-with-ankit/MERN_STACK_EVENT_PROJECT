@@ -19,6 +19,9 @@ app.use(cors({
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}))
+app.use("/".function(req, res){
+    res.send("successfully");
+})
 
 app.use("/api/v1/message", messageRouter)
 
